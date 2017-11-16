@@ -41,18 +41,19 @@ import javax.swing.JPanel;
 //
 //	                        g.drawRect(x1+5, y1+5, width-10, height-10);
 //	                        
-//	                        //Draw Diagonal Line
-//	                        
-//	                        g.setColor(Color.WHITE);
-//
-//	                        g.drawLine(x1+115, y1, x2, y2);
-//
-//	                       //Draw Opposite Diagonal Line
-//	                        
-//	                        g.setColor(Color.BLUE);
-//
-//	                        g.drawLine(x1, y2, x2, y1);
-//	                        
+	                        //Draw Diagonal Line
+	                        
+	                        g.setColor(Color.WHITE);
+
+	                        g.drawLine(x1, y1, 200, 200);
+
+	                       //Draw Opposite Diagonal Line
+	                        
+	                        g.setColor(Color.BLUE);
+
+	                        g.drawLine(x1, y2, 200, 200);
+	                        
+	                       
 //	                        //Draw Oval
 //	                        g.setColor(Color.PINK);
 //	                        g.fillOval((width-55)/2, ((height-55)/2),55,55);
@@ -71,6 +72,11 @@ import javax.swing.JPanel;
 	                        	                        
 	                        g.setColor(Color.WHITE);
 	                        g.drawPolygon(p2);
+	                        
+	                                             
+	                        g.setColor(Color.white);
+	                        g.fillPolygon(p2);
+	                        
 	            }
 
 	}
